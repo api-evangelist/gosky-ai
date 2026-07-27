@@ -1,8 +1,31 @@
 aid: gosky-ai
 name: GoSky AI
-description: GoSky AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GoSky AI Inc. is a Taipei-based no-code conversational marketing and social CRM
+  platform that helps creators, brands, and enterprises automate customer engagement
+  across Instagram, Threads, and Facebook Messenger. Founded in 2018, its product
+  suite spans the GoSky AI Chatbot Platform (build no-code chat flows, capture leads,
+  and auto-reply to comments and DMs in minutes), GoSky Loyal (a digital loyalty and
+  membership points program), GoSky Ads (precision ad placement across Google, Meta,
+  and Shopee), and GoSky AI Customer Service (generative-AI-powered 24/7 support). The
+  company operates a hosted SaaS console at platform.goskyai.com and reports serving
+  400+ enterprises including Mercedes-Benz, VOGUE, and Lazada. GoSky AI is a portfolio
+  company of 500 Global. As of this enrichment pass GoSky AI publishes no public
+  developer API, OpenAPI, SDKs, or developer documentation surface; this profile
+  captures its public identity, web properties, and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/gosky-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/617a5c9154be7ac9eaf867ba/632879e070bf8d7764b1c2d9_GoSky%20Logo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Chatbots
+- Conversational Marketing
+- Social CRM
+- Messaging
+- Instagram
+- Messenger
+- No-Code
+- Customer Service
+- Loyalty
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://goskyai.com
+  url: https://www.goskyai.com/en
+- type: Portal
+  url: https://platform.goskyai.com/
+- type: SignUp
+  url: https://platform.goskyai.com/signup
+- type: Login
+  url: https://platform.goskyai.com/
+- type: Blog
+  url: https://www.goskyai.com/tw/blog
+- type: Support
+  url: https://www.goskyai.com/contact
+- type: PrivacyPolicy
+  url: https://www.goskyai.com/privacy
+- type: TermsOfService
+  url: https://www.goskyai.com/chatbot-platform/terms
+- type: GitHubOrganization
+  url: https://github.com/goskyai
+- type: DomainSecurity
+  url: security/gosky-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
