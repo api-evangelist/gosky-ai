@@ -1,0 +1,27 @@
+# Front Door AI Index — gosky-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: gosky-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.goskyai.com
+  final_host: www.goskyai.com
+  ownership: own
+  owner: gosky-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 23
+  host_score: 23
+  density: 155.41
+  words: 148
+  tiers:
+    agentic: 6
+    core: 16
+    model: 1
+  ambiguous: 0
+  top_terms:
+    AI: 16
+    chatbot: 6
+    GPT: 1
